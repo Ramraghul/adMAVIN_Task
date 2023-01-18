@@ -1,0 +1,67 @@
+.SquareSplit_game {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 30px;
+}
+.square_board {
+  height: 35vw;
+  width: 35vw;
+  margin: 0px;
+  padding: 0px;
+  border: 1px solid black;
+}
+.Create_Square {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.small_square {
+  margin: 0px;
+  padding: 0px;
+}
+
+.right_line {
+  border-right: 0.5px solid black;
+}
+.bottom_line {
+  border-bottom: 0.5px solid black;
+}
+
+@media screen and (max-width: 1026px) {
+  .SquareSplit_game {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+  }
+  .square_board {
+    height: 60vw;
+    width: 60vw;
+    margin: 0px;
+    padding: 0px;
+    border: 1px solid black;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .SquareSplit_game {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+  }
+  .square_board {
+    height: 80vw;
+    width: 80vw;
+    margin: 0px;
+    padding: 0px;
+    border: 1px solid black;
+  }
+}
